@@ -6,8 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ahmad Raza <vision.ahmad@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadRaza786/next_vision"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AhmadRaza786/next_vision/issues"
+  },
   "dependencies": {
     "flat": "^4.1.0",
     "lodash": "^4.17.11",

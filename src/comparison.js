@@ -28,13 +28,16 @@ const sortArraysInObject = (obj) => {
     for(let i in flatten){
         let repets = i.split('.1.');
         if(repets.length > 1){
+            let path = '';
             repets.forEach((r, index) => {
+                path += r;
                 if(repets[index+1] && sorted.indexOf(r) === -1){
                     let {result} = getObjectData(r, obj);
                     result = sortArrayOfObjects(result);
                     objectPath.set(obj, r, result);
                     sorted.push(r);
                 }
+                path += '.1.';
             })
         }  
     }    
