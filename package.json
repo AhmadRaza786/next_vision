@@ -1,0 +1,16 @@
+{
+  "name": "next_vision",
+  "version": "1.0.0",
+  "description": "A module that contains the easy programming tactics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flat": "^4.1.0",
+    "lodash": "^4.17.11",
+    "object-path": "^0.11.4"
+  }
+}
